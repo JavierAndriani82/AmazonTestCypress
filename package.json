@@ -1,15 +1,18 @@
 {
   "name": "amazontest",
-  "version": "1.0.0",
   "description": "Amazon Testing",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "cypress open",
+    "execute": "cypress run --browser chrome --spec"
   },
   "keywords": [
     "cypress",
     "amazon"
   ],
   "author": "Javier Andriani",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  }
 }
