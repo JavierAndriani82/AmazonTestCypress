@@ -1,0 +1,15 @@
+{
+  "name": "amazontest",
+  "version": "1.0.0",
+  "description": "Amazon Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "cypress",
+    "amazon"
+  ],
+  "author": "Javier Andriani",
+  "license": "ISC"
+}
