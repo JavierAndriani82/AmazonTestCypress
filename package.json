@@ -12,7 +12,9 @@
   ],
   "author": "Javier Andriani",
   "license": "ISC",
+  "type": "commonjs",
   "devDependencies": {
-    "cypress": "^12.3.0"
+    "cypress": "^12.3.0",
+    "cypress-xpath": "^2.0.1"
   }
 }
